@@ -3,13 +3,13 @@
 <head>
     <Title>Cadastro de Times</Title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="Tela_de_cadastro.css">
+    <link rel="stylesheet" href="Cadastro_de_Time.css">
 </head>
 
 <body>
     <header>
         <nav class="menu">
-            <a href="#inicio"><img src="Img/logo.svg" alt="Logo"></a>
+            <a href="#inicio"><img src="../Img/logo.svg" alt="Logo"></a>
             <a href="#inicio">INÍCIO</a>
             <a href="#horarios">HORÁRIOS</a>
             <a href="#campeonatos">CAMPEONATOS</a>
@@ -26,32 +26,33 @@
         <section class="cadastrar">
             <div class="cadastrar_tudo">
                 <div class="cadastrar_container">
-                    <div class="cadastrar_1">
-                        <span>Nome da Equipe</span>
-                        <input type="email" name="nome" id="nome">
-                    </div>
-                    <div class="cadastrar_2">
-                        <span>Emblema</span>
-                        <a href="#"> <input type="button" value="Escolha Imagem"></a>
-                    </div>
-                    <div class="cadastrar_3">
-                        <a href="#"><input type="button" value="CADASTRAR"></a>
-                    </div>
+                    <form class="cadastrar_1">
+                        <label>Nome do Jogador</label>
+                        <input type="text">
+                    </form>
+                    <form class="cadastrar_2">
+                        <label>Email</label>
+                        <input type="file">
+                    </form>
+                    <form class="cadastrar_3">
+                        <input type="submit" value="CADASTRAR"></a>
+                    </form>
                 </div>
+
                 <div class="lista">
                     <span>Lista de Times</span>
                     <table>
-                        <tr>
-                            <th>Nome da Equipe</th>
-                            <th>Emblema</th>
+                        <tr class="linha_1">
+                            <td>Nome da Equipe</td>
+                            <td>Emblema</td>
                         </tr>
                         <tr>
-                            <th>SENAI Cytechs</th>
-                            <th><img src="Img/fla-logo.png" alt="logo_flamengo"></th>
+                            <td>SENAI Cytechs</td>
+                            <td><img src="../Img/fla-logo.png" alt="logo_flamengo"></td>
                         </tr>
                         <tr>
-                            <th>Flamengo</th>
-                            <th><img src="Img/fla-logo.png" alt="logo_flamengo"></th>
+                            <td>Flamengo</td>
+                            <td><img src="../Img/fla-logo.png" alt="logo_flamengo"></td>
                         </tr>
                     </table>
                 </div>
@@ -80,20 +81,20 @@
                         <li><a href="#login">Login/Cadastro</a></li>
                     </nav>
                 </div>
-                <a href="#inicio"><img src="Img/logo.svg" alt="logo"></a>
+                <a href="#inicio"><img src="../Img/logo.svg" alt="logo"></a>
                 <div class="rodape_3">
                     <div class="rodape_4">
                         <span>Faça parte do nosso clan, assine nossa newsletter!!</span>
                     </div>
-                    <div class="rodape_5">
+                    <form class="rodape_5">
                         <input class="email" type="email" name="Email" id="email">
-                        <a href="#"><input class="cadastrar" type="button" value="Cadastrar"></a>
-                    </div>
+                        <a href="#">Cadastrar</a>
+                    </form>
                     <div class="rodape_6">
                         <span>Siga-Nós em</span>
-                        <a href="https://www.instagram.com/"><img src="Img/instagram.png" alt="Logo Instagram"></a>
-                        <a href="https://pt-br.facebook.com/"><img src="Img/facebook.png" alt="Logo facebook"></a>
-                        <a href="https://www.youtube.com/"><img src="Img/youtube.png" alt="Logo Youtube"></a>
+                        <a href="https://www.instagram.com/"><img src="../Img/instagram.png" alt="Logo Instagram"></a>
+                        <a href="https://pt-br.facebook.com/"><img src="../Img/facebook.png" alt="Logo facebook"></a>
+                        <a href="https://www.youtube.com/"><img src="../Img/youtube.png" alt="Logo Youtube"></a>
                     </div>
                 </div>
             </div>

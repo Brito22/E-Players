@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html {
+    width: 1920px;
+    height: 1306px;
+}
+
+head {
+
+}
+
+body {
+
+}
+
+header {
+    background-color: #1E1C21;
+    width: 1920px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.menu a:hover {
+    color: #B501E2;
+}
+
+.menu img {
+    width: 285px;
+    height: 30px;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Img/League-of-Legends-LeBlanc-League-of-Legends-1382141-wallhere.com.png);
+    width: 1920px;
+    height: 237px;
+}
+
+.banner h1 {
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 61px;
+    color: #FFFFFF;
+
+}
+
+.cadastrar {
+    background: linear-gradient(to bottom, rgba(30,28,33,1) 0%,rgba(30,28,33,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    width: 1920px;
+    height: 1068px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastrar_tudo {
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.cadastrar_container {
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    box-shadow: 1px 1px 20px 4px #000000;
+    Width: 770px;
+    Height: 629px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cadastrar_container label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.cadastrar_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 98px;
+    height: 55px;
+}
+
+.cadastrar_1 input{
+    width: 575px;
+    height: 30px;
+}
+
+.cadastrar_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 98px;
+    height: 55px;
+}
+
+.cadastrar_2 input {
+    width: 575px;
+    height: 30px;
+}
+
+.cadastrar_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 98px;
+    height: 55px;
+}
+
+.cadastrar_3 input {
+    width: 575px;
+    height: 30px;
+}
+
+.cadastrar_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 98px;
+    height: 55px;
+}
+
+.cadastrar_4 input {
+    width: 575px;
+    height: 30px;
+}
+
+.cadastrar_5 {
+    display: flex;
+    justify-content: center;
+}
+
+.cadastrar_5 input {
+    width: 257px;
+    height: 40px;
+    background-color: #B501E2;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.lista {
+    width: 770px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista span {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+table {
+    border-spacing: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;  
+    color: #FFFFFF;
+}
+
+.linha_1 {
+    background-color: black;
+}
+
+table, tr {
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 770px;
+    height: 60px;
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+table, td {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #010101;
+    width: 1920px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape {
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape_container {
+    display: flex;
+    justify-content: space-between;
+    width: 346px;
+}
+
+.rodape a {
+    color: white;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    color: #B501E2;
+}
+
+.rodape h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.rodape span {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.rodape_1 {
+    width: 161px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodape_2 {
+    width: 131px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rodape_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 363px;
+    height: 157px;
+}
+
+.rodape_4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape_5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#email_1 {
+    background-color: white;
+    width: 192px;
+    height: 46px;
+    color: black;
+    font-size: 15px;
+}
+
+.rodape_5 a{
+    background-color: #B501E2;
+    width: 170px;
+    height: 41px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape_5 a:hover {
+    color: unset;
+}
+
+.rodape_6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.rodape_6 img {
+    width: 50px;
+    height: 50px;
+}
+
+nav li {
+    color: white;
+}
+
+.menu a:hover {
+    padding-left: 30px;
+    border-left: 4px solid blueviolet;
+    color: blueviolet;
+    transition: .4s;
+  }
+
+  @media (max-width: 768px) {
+      header {
+          width: 80vw;
+          align-items: center;
+      }
+  }
