@@ -191,9 +191,15 @@ table {
 
 .linha_1 {
     background-color: black;
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 770px;
+    height: 60px;
+    color: white;
+    text-align: left;
 }
 
-table, tr {
+table {
     border: 1px solid white;
     border-collapse: collapse;
     width: 770px;
@@ -349,14 +355,117 @@ nav li {
 
 .menu a:hover {
     padding-left: 30px;
-    border-left: 4px solid blueviolet;
-    color: blueviolet;
+    border-left: 4px solid #0B3294;
+    color: #0B3294;
     transition: .4s;
   }
 
   @media (max-width: 768px) {
       header {
+          width: 100vw;
+          align-items: center;
+      }
+
+      html {
+          width: 100vw;
+      }
+
+      main {
+          width: 100vw;
+      }
+
+      .menu {
+          width: 80vw;
+          justify-content: center;
+      }
+
+      .menu a {
+        width: 37vw;
+      }
+
+      .menu .links {
+          display: none;
+      }
+
+      .banner {
+          width: 100vw;
+      }
+
+      .cadastrar {
+          width: 100vw;
+      }
+
+      .cadastrar_tudo {
+          width: 80vw;
+      }
+
+      .cadastrar_container {
           width: 80vw;
           align-items: center;
       }
+
+      .cadastrar_1 {
+          width: 75vw;
+          padding: unset;
+      }
+
+      .cadastrar_1 input {
+        width: 75vw;
+      }
+
+      .cadastrar_2 {
+          width: 75vw;
+          padding: unset;
+      }
+
+      .cadastrar_3 {
+          width: 40vw;
+      }
+
+      .lista {
+          width: 80vw;
+      }
+
+      table {
+          width: 79vw;
+      }
+
+      footer {
+        width: 100vw;
+        height: 70vw;
+      }
+
+      .rodape {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70vw;
+      }
+
+      .rodape_container {
+        width: 80vw;
+        height: 23vw;
+      }
+
+      .rodape_1 {
+        width: 20vw;
+      }
+
+      .rodape_2 {
+        width: 15vw;
+      }
+
+      .rodape_3 {
+        width: 80vw;
+        height: 20vw;
+      }
+
+      #email {
+        width: 75vw;
+      }
+
+      #inicio {
+        width: 44vw;
+        height: 5vw;
+      }
+
   }

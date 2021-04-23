@@ -9,12 +9,12 @@
 <body>
     <header>
         <nav class="menu">
-            <a href="#inicio"><img src="../Img/logo.svg" alt="Logo"></a>
-            <a href="#inicio">INÍCIO</a>
-            <a href="#horarios">HORÁRIOS</a>
-            <a href="#campeonatos">CAMPEONATOS</a>
-            <a href="#resultados">RESULTADOS</a>
-            <a href="#noticias">NOTÍCIAS</a>
+            <a href="../Index.html"><img src="../Img/logo.svg" alt="Logo"></a>
+            <a class="links" href="#inicio">INÍCIO</a>
+            <a class="links" href="#horarios">HORÁRIOS</a>
+            <a class="links" href="#campeonatos">CAMPEONATOS</a>
+            <a class="links" href="#resultados">RESULTADOS</a>
+            <a class="links" href="#noticias">NOTÍCIAS</a>
         </nav>
     </header>
 
@@ -40,7 +40,12 @@
                     </form>
                     <form class="cadastrar_4">
                         <label>Equipe</label>
-                        <input type="text">
+                        <select name="Lista de Time" id="lista_de_time">
+                        <option value="valor1">Selecionar Equipe</option>
+                        <option value="valor2" selected>Flamengo</option>
+                        <option value="valor3">VK</option>
+                        <option value="valor3">SENAI Cytechs</option>
+                    </select>
                     </form>
                     <form class="cadastrar_5">
                         <input type="submit" value="CADASTRAR"></a>
@@ -89,14 +94,14 @@
                         <li><a href="#login">Login/Cadastro</a></li>
                     </nav>
                 </div>
-                <a href="#inicio"><img src="../Img/logo.svg" alt="logo"></a>
+                <a href="../Index.html"><img src="../Img/logo.svg" alt="logo"></a>
                 <div class="rodape_3">
                     <div class="rodape_4">
                         <span>Faça parte do nosso clan, assine nossa newsletter!!</span>
                     </div>
                     <form class="rodape_5">
                         <input class="email" type="email" name="Email" id="email_1">
-                        <a href="#">Cadastrar</a>
+                        <a href="../Cadastro/Cadastro_de_Jogador.html">Cadastrar</a>
                     </form>
                     <div class="rodape_6">
                         <span>Siga-Nós em</span>

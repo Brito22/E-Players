@@ -221,8 +221,8 @@ nav li {
 
 .menu a:hover {
     padding-left: 30px;
-    border-left: 4px solid blueviolet;
-    color: blueviolet;
+    border-left: 4px solid #0175EC;
+    color: #0175EC;
     transition: .4s;
   }
 
